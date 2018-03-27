@@ -1,22 +1,30 @@
 $secondary: #ea4335
 header
   display: flex
-  justify-content: space-around
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif 
+  justify-content: space-between
   font-weight: 300
   font-size: 15px
-  margin: 100px 100px 0
+  text-align: left
+
+  nav
+    display: flex
+    justify-content: space-between
+
   a, a:focus, a:active
     color: black
     text-decoration: none
     margin: 14px
+    &:first-child
+      margin-left: 0
+
   a:hover 
     color: $secondary
     transition: all .2s ease
 
-// body, body > * // talk with zach about it not working
-  //  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif 
-  //  font-weight: 300
+  a.active
+    font-weight: bold
+    cursor: not-allowed
+    color: black
 
 .checkout
   position: relative

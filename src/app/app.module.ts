@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { LoginFormComponent } from './login-form/login-form.component';
 import { StickersComponent } from './stickers/stickers.component';
 
 const appRoutes: Routes = [
@@ -15,7 +14,6 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    LoginFormComponent,
     StickersComponent
   ],
   imports: [

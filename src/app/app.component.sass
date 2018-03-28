@@ -3,6 +3,7 @@
 header
   display: flex
   justify-content: space-between
+  align-items: center
   font-weight: 300
   font-size: 15px
   text-align: left
@@ -10,22 +11,23 @@ header
   nav
     display: flex
     justify-content: space-between
+    align-items: flex-start
 
   a, a:focus, a:active
-    color: black
+    color: $eh-black
     text-decoration: none
     margin: 14px
     &:first-child
       margin-left: 0
 
   a:hover 
-    color: $red
+    color: $eh-blue
     transition: all .2s ease
 
   a.active
     font-weight: bold
-    cursor: not-allowed
-    color: black
+    cursor: default
+    color: $eh-blue
 
 .checkout
   position: relative

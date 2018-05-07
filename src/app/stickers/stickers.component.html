@@ -1,3 +1,78 @@
-<p>
-  stickers works!
-</p>
+<section>
+  <!-- click on a product -->
+  <!-- product is add to cart, notification of this action -->
+  <!--  -->
+
+  <a href="#" (click)="addToCart($event,product.id)" class="product" *ngFor="let product of productList">
+    <div class="product image">
+      <img src="{{product.imagePath}}" />
+    </div>
+    <h3 class="product-name">{{product.name}}</h3>
+    <p class="price">{{ product.price | currency }} </p>
+  </a>
+<!-- 
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a>
+  <a href="" class="product">
+    <div class="product image">
+      <img src="assets/stickers/angular-1@1x.png" />
+    </div>
+    <h3 class="product-name">Starting with React Sticker</h3>
+    <p class="price">$5</p>
+  </a> -->
+
+</section>

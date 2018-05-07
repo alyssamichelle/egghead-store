@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StickersComponent } from './stickers/stickers.component';
 import { PopularComponent } from './popular/popular.component';
 import { TShirtsComponent } from './t-shirts/t-shirts.component';
+import { CartService } from './cart.service';
 
 const appRoutes: Routes = [
   { path: 'stickers', component: StickersComponent },
@@ -29,7 +30,9 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     )
   ],
-  providers: [],
+  providers: [
+    CartService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

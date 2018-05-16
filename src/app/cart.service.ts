@@ -48,7 +48,25 @@ export class CartService implements OnInit{
     return this.productList;
   }
   addToCart(productId): void {
-    console.log(productId);
+    let item = this.productList.find((product) => {
+      return product.id == productId;
+    });
+
+    let cartItem: CartItem = {
+      product: item,
+      quantity: 1
+    };
+
+    for (let thingInCart of this.cart) {
+      if (thingInCart.product.id == item.id) {
+        thingInCart.quantity++;
+        console.log('CART:', this.cart);
+        return;
+      }
+    };
+
+    this.cart.push(cartItem);
+    console.log('CART:', this.cart);
   }
   ngOnInit() {
 

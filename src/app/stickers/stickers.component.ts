@@ -11,7 +11,7 @@ export class StickersComponent implements OnInit {
   constructor(private cartService: CartService) {
   }
 
-  productList = this.cartService.getProductList();
+  productList = this.cartService.getProductByType('sticker');
   
   addToCart($event, id){
     $event.preventDefault();

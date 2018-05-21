@@ -455,7 +455,7 @@ Now on click, we see in our console log the product id being passed to the cartS
 
 
 # TODO: Flesh out cart view
-# TODO: Update app to angular 6 (make lesson about this or just do it?)
+# TODO: Update app to angular 6 (make course start in lesson 6)
 
 
 # FUTURE COURSE NOTES

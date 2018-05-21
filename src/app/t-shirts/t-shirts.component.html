@@ -1,3 +1,13 @@
-<p>
-  t-shirts works!
-</p>
+<section>
+  <!-- click on a product -->
+  <!-- product is add to cart, notification of this action -->
+  <!--  -->
+
+  <a href="#" (click)="addToCart($event,product.id)" class="product" *ngFor="let product of productList">
+    <div class="product image">
+      <img src="{{product.imagePath}}" />
+    </div>
+    <h3 class="product-name">{{product.name}}</h3>
+    <p class="price">{{ product.price | currency }} </p>
+  </a>
+</section>

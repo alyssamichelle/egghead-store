@@ -462,7 +462,9 @@ Now on click, we see in our console log the product id being passed to the cartS
 # create t-shirt product
 # get products by type
 # make styles work for any product page
-# update the app to ng6
+
+# get add to cart working on t-shirts
+
 
 
 # FUTURE COURSE NOTES

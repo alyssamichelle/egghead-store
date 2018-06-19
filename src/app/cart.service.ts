@@ -45,9 +45,58 @@ export class CartService implements OnInit{
     {
       id: 5,
       type: 't-shirt',
-      name: 'RXJS t-shirt',
+      name: 'Angular t-shirt',
       price: 20,
-      imagePath: 'assets/placeholder.png'
+      imagePath: 'assets/t-shirtsFolded/angular-1@2x.png'
+    },
+    {
+      id: 6,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-2@2x.png'
+    },
+    {
+      id: 7,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-3@2x.png'
+    },
+    {
+      id: 8,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-4@2x.png'
+    },
+    {
+      id: 9,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-5@2x.png'
+    },
+    {
+      id: 10,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-6@2x.png'
+    },
+    {
+      id: 11,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-7@2x.png'
+    },
+    {
+      id: 12,
+      type: 't-shirt',
+      name: 'Angular t-shirt',
+      price: 20,
+      imagePath: 'assets/t-shirtsFolded/angular-8@2x.png'
     }
   ];
   constructor() {   }

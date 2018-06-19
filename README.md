@@ -458,6 +458,13 @@ Now on click, we see in our console log the product id being passed to the cartS
 # TODO: Update app to angular 6 (make course start in lesson 6)
 
 
+# create t-shirt template/comp
+# create t-shirt product
+# get products by type
+# make styles work for any product page
+# update the app to ng6
+
+
 # FUTURE COURSE NOTES
 
 ## Integrating Stripe Payments in Your Angular Application 

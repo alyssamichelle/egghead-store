@@ -454,6 +454,18 @@ And if we selected the same sticker multiple times, we see that it just updates 
 Now on click, we see in our console log the product id being passed to the cartService and logging out! We are so close to populating our cart!!!
 
 
+## Animating Cart Count Update
+
+1. import goods to allow animations into app.module.ts
+
+  `BrowserAnimationsModule`
+
+2. import these things into the comp we will be adding the animation to:
+
+`import { trigger, state, style, animate, transition } from '@angular/animations';`
+
+3. Define the animation trigger
+
 # TODO: Flesh out cart view
 # TODO: Update app to angular 6 (make course start in lesson 6)
 
@@ -462,6 +474,12 @@ Now on click, we see in our console log the product id being passed to the cartS
 # create t-shirt product
 # get products by type
 # make styles work for any product page
+
+# update to ng6
+
+# create cart view
+
+# add animation when product gets added to cart
 
 # get add to cart working on t-shirts
 
@@ -480,6 +498,11 @@ The --service-worker flag takes care of configuring your app to use service wo
 
 ng new my-project --service-worker
 
+
+## Store Part II
+- adding views per product
+- changing product color
+- adding carousel to view multiple pics per product
 
 
 

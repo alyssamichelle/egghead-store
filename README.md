@@ -466,22 +466,17 @@ Now on click, we see in our console log the product id being passed to the cartS
 
 3. Define the animation trigger
 
-# TODO: Flesh out cart view
-# TODO: Update app to angular 6 (make course start in lesson 6)
+## TODO
 
-
-# create t-shirt template/comp
-# create t-shirt product
-# get products by type
-# make styles work for any product page
-
-# update to ng6
-
-# create cart view
-
-# add animation when product gets added to cart
-
-# get add to cart working on t-shirts
+- Flesh out cart view
+- create t-shirt template/comp
+- create t-shirt product
+- get products by type
+- make styles work for any product page
+- Update app to angular 7 (make course start in lesson 7)
+- create cart view
+- add animation when product gets added to cart
+- get add to cart working on t-shirts
 
 
 
@@ -512,6 +507,8 @@ ng new my-project --service-worker
 
 
 
+## #localReferences vs [(ngModel)]
+![http://cl.nicoll.co/sl9R](http://cl.nicoll.co/sl9R/Image%202018-07-05%20at%204.06.23%20PM.png)
 
 
 
